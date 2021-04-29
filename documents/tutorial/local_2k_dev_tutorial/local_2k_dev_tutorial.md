@@ -1015,6 +1015,7 @@ ls -al ~/.lotusminer/
 ![拷贝 miner 机器上的  api 和 token](./pictures/copy_config_from_miner_to_worker.png)
 
 注意： `miner` 配置文件中的 `api` 文件需要在启动 `miner` 之后才会生成。
+`miner` 后面的`IP`地址是 `worker`本机的内网`IP`地址
 
 有了配置文件，我们现在就可以启动 `worker` 了，启动命令如下所示：
 
